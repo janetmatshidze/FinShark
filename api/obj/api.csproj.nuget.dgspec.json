@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JMatshidze\\Documents\\FinShark\\api\\api.csproj": {}
+    "C:\\FinShark\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JMatshidze\\Documents\\FinShark\\api\\api.csproj": {
+    "C:\\FinShark\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JMatshidze\\Documents\\FinShark\\api\\api.csproj",
+        "projectUniqueName": "C:\\FinShark\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\JMatshidze\\Documents\\FinShark\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\JMatshidze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JMatshidze\\Documents\\FinShark\\api\\obj\\",
+        "projectPath": "C:\\FinShark\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\matsh\\.nuget\\packages\\",
+        "outputPath": "C:\\FinShark\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JMatshidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.10, )"
@@ -65,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
