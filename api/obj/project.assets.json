@@ -5337,23 +5337,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matsh\\.nuget\\packages\\": {},
+    "C:\\Users\\JMatshidze\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FinShark\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\JMatshidze\\FinShark\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\FinShark\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\matsh\\.nuget\\packages\\",
-      "outputPath": "C:\\FinShark\\api\\obj\\",
+      "projectPath": "C:\\Users\\JMatshidze\\FinShark\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\JMatshidze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JMatshidze\\FinShark\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JMatshidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
