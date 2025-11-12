@@ -8,7 +8,7 @@ namespace api.Dtos.Comment
 {
     public class CreateCommentDto
     {
-
+ 
         [Required]
         [MinLength(5, ErrorMessage = "Title must be at least 5 characters long.")]
         [MaxLength(280, ErrorMessage = "Title cannot exceed 280 characters.")]

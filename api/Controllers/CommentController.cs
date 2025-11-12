@@ -23,7 +23,6 @@ namespace api.Controllers
         }
 
         [HttpGet]
-
         public async Task<IActionResult> GetAll()
         {
 
