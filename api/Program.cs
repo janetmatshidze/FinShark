@@ -1,4 +1,5 @@
 using api.Data;
+using api.Helpers.Service;
 using api.Interfaces;
 using api.Models;
 using api.Repository;
@@ -57,7 +58,7 @@ builder.Services.AddAuthentication(options =>
       ValidAudience = builder.Configuration["Jwt:Audience"],
       ValidateIssuerSigningKey = true,
       IssuerSigningKey = new SymmetricSecurityKey(
-      System.Text.Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SigningKey"])),
+      System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"])),
 
 
    };
@@ -65,6 +66,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<IStockRepository, StockRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 
 var app = builder.Build();
